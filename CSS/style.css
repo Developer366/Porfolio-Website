@@ -1,0 +1,71 @@
+.jumbotron {
+	background-color: BlueViolet;
+	border-radius: 0 !important;
+}
+li {
+	font-size: 25px;
+}
+body {
+	background-image: url('OrangeBackground.jpg');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+.navbar-nav.nav-item.nav-link a{
+	color: red;
+}
+body {
+	background-color: lightgreen;
+}
+#collapsibleNavBar{
+	background-color: red;
+}
+h1 {
+	text-align: center;
+	color: blue;
+	text-decoration: underline;
+	font-size: 60px;
+}
+h4 {
+	text-align: center;
+	color: BlueViolet;
+}
+.avatar{
+	width:450px;
+	height:450px;
+	border-radius:80%;
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+}
+p {
+	font-family: OCR A Std, monospace;
+	text-align: center;
+	font-size: 170%;
+}
+.bold {
+	font-weight:900;
+	color: blue;
+}
+ul{
+	font-family: OCR A Std, monospace;
+	font-size: 200%;
+}
+.nav-item a{
+		text-align:center;
+		color: CornflowerBlue !important;
+		font-size: 20px;
+		margin-left: 40px;
+	}
+#Interests {
+		display: table;
+		margin: 0 auto;
+		list-style-type: square;
+}
+
+/*
+.table.table-bordered {
+	border-color:red !important;
+}
+*/
