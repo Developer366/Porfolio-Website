@@ -1,31 +1,26 @@
 .jumbotron {
-	background-color: BlueViolet;
-	border-radius: 0 !important;
-}
-li {
-	font-size: 25px;
+		/*background-color: BlueViolet;*/
+		/*	border-radius: 0 !important;*/
+	background-image: url("../IMAGES/NightCity.jpg");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:300px;
 }
 body {
-	background-image: url('OrangeBackground.jpg');
+	background-image: url("../IMAGES/bridge.jpg");
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
 }
-
-.navbar-nav.nav-item.nav-link a{
-	color: red;
-}
-body {
-	background-color: lightgreen;
-}
-#collapsibleNavBar{
-	background-color: red;
+li {
+	font-size: 25px;
 }
 h1 {
 	text-align: center;
 	color: blue;
 	text-decoration: underline;
-	font-size: 60px;
+	font-size: 90px;
 }
 h4 {
 	text-align: center;
@@ -53,19 +48,14 @@ ul{
 	font-size: 200%;
 }
 .nav-item a{
-		text-align:center;
-		color: CornflowerBlue !important;
-		font-size: 20px;
-		margin-left: 40px;
+	/*	text-align:center !important; */
+		color: pink !important;
+		font-size: 50px;
+		margin-left: 150px;
+		margin-right: 150px;
 	}
 #Interests {
 		display: table;
 		margin: 0 auto;
 		list-style-type: square;
 }
-
-/*
-.table.table-bordered {
-	border-color:red !important;
-}
-*/
