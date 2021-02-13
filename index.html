@@ -8,16 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS Links -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- JavaScript links-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="Javascript/script.js"></script>
 </head>
 
 <body>
     <div class="jumbotron text-center" style="margin-bottom:0">
-        <h1 style="color:#5AE2FE;">Kamil Peza's Personal Website</h1>
+        <h1 style="color:yellow; font-size:50px;">Kamil Peza's Personal Website</h1>
     </div>
 
     <nav class="navbar navbar-expand-sm bg-dark justify-content-center">
@@ -26,15 +28,13 @@
           <a class="nav-link" href="index.html">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="HTML/portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact_me.html">Contact Me</a>
+          <a class="nav-link" href="HTML/contact_me.html">Contact Me</a>
         </li>
       </ul>
     </nav>
-
-
 
 <!--Nav Bar with page links
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
@@ -63,20 +63,7 @@
 <!--About me Photo-->
 <h1>About Me</h1>
 
-<div class="container.fluid" style="margin-top:30px; margin-bottom: 80px;">
-      <div class="w3-content w3-display-container" style="max-width:800px">
-        <img class="mySlides" src="img_nature_wide.jpg" style="width:100%">
-        <img class="mySlides" src="img_snow_wide.jpg" style="width:100%">
-        <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%">
-        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-        </div>
-      </div>
-
+<img src="IMAGES/headshot_greyBackground.jpeg" class="avatar"></img>
 
 <!--
 	  <img src="https://cdn1.iconfinder.com/data/icons/avatars-55/100/avatar_profile_user_music_headphones_shirt_cool-512.png" class="avatar">
@@ -92,7 +79,7 @@
 <div class="row" style="margin-bottom: 50px;">
 	<div class="col-md-6">
       <ul>
-        <h1 id="Education">Education Summary</h1>
+        <h1>Education Summary</h1>
           <li> I graduated from Saint John's University with a Bachelors of Science degree in Computer Science on <span style="color:red;font-weight:bold">May 2020. </span></li>
           <li>Dean's list 2016-2020.</li>
           <li><span style="color:red;font-weight:bold">GPA: 3.68, Cum Laude</span></li>
@@ -111,13 +98,18 @@
 <!-- Programming skills and Hobbies-->
 <div class="row">
 	<div class="col-md-10 mx-auto" style="margin-bottom: 60px;">
-		<h1 id="Programming">Programming Skills Section</h1>
+		<h1 style="margin-bottom:50px">Programming Skills Section</h1>
 		<ul>
-			<li>Html/CSS: intermediate level</li>
-			<li>Java: intermediate level</li>
-			<li>R: beginner level (used in statistics classes and data mining)</li>
-			<li>Python [Flask]: intermediate level</li>
+			<li>Html/CSS  (intermediate level)</li>
+			<li>Java (intermediate level)</li>
+			<li>R (beginner level) (used in statistics and data mining classes)</li>
+			<li>Python (intermediate level)</li>
       <li>Flask micro web framework</li>
+      <li>JavaScript (Intermediate level)</li>
+      <li>node.js</li>
+      <li>Handlebars</li>
+      <li>C Programming (Beginner Level)</li>
+      <li>Sqlite</li>
 		</ul>
 	</div>
 </div>
@@ -129,7 +121,7 @@
     <li>PC Gaming</li>
     <li>Tv Shows & Movies</li>
     <li>Basketball</li>
-    <li>Learning to Cook</li>
+    <li>Learning to cook new things</li>
     <li>Playing guitar</li>
     <li>Listening to Music</li>
     <li>Going to the gym</li>
@@ -155,7 +147,7 @@
 			<td>Save Your Tears</td>
 			<td>The Weeknd</td>
 			<td><a href="https://www.youtube.com/watch?v=XXYlFuWEuKI&ab_channel=TheWeekndVEVO" target="_blank">The Weeknd - Save Your Tears (Official Music Video)</a></td>
-			<td><iframe width="560" height="315" src="https://www.youtube.com/embed/XXYlFuWEuKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+			<td><iframe width="560" height="315" src="https://www.youtube.com/embed/pViYsTHB0i8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 		</tr>
 
 		<!-- Movie-->
@@ -210,9 +202,9 @@
 
 </div>
 
-<footer class="container-fluid bg-4 text-center" style="background-color: Violet; font-size:20px; line-height: 150%;">
-  <p>Kamil Peza</p>
-  <p> &copy;Feb 2021</p>
+<footer class="container-fluid bg-4 text-center">
+  <p>Kamil Peza   &copy;Feb 2021</p>
+  <p><a class="nav-link" href="HTML/portfolio.html">--> Click here for Portfolio Section <-- </a></p>
 </footer>
 
 </body>

@@ -1,5 +1,4 @@
 .jumbotron {
-		/*background-color: BlueViolet;*/
 		/*	border-radius: 0 !important;*/
 	background-image: url("../IMAGES/NightCity.jpg");
 	background-attachment:fixed;
@@ -8,28 +7,29 @@
 	height:300px;
 }
 body {
-	background-image: url("../IMAGES/bridge.jpg");
+	background-image: url("../IMAGES/milyway.jpeg");
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
 }
 li {
-	font-size: 25px;
+	font-size: 30px;
+	color: #FF6DE7;
 }
 h1 {
 	text-align: center;
-	color: blue;
+	color: yellow;
 	text-decoration: underline;
-	font-size: 90px;
+	font-size: 260%;
+	font-weight: bold;
 }
 h4 {
 	text-align: center;
 	color: BlueViolet;
 }
 .avatar{
-	width:450px;
-	height:450px;
-	border-radius:80%;
+	width:20%;
+	height:20%;
 	margin-left: auto;
 	margin-right:auto;
 	display:block;
@@ -37,11 +37,12 @@ h4 {
 p {
 	font-family: OCR A Std, monospace;
 	text-align: center;
-	font-size: 170%;
+	font-size: 230%;
+	color:#FF6DE7;
 }
 .bold {
 	font-weight:900;
-	color: blue;
+	color: yellow;
 }
 ul{
 	font-family: OCR A Std, monospace;
@@ -59,3 +60,19 @@ ul{
 		margin: 0 auto;
 		list-style-type: square;
 }
+th {
+	color:red;
+}
+tr {
+	color: pink;
+	font-size:30px;
+}
+footer {
+	padding: 3px;
+	color: red;
+}
+/*
+.mySlides {
+	display:none;
+}
+*/
