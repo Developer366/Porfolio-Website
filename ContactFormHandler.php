@@ -1,16 +1,26 @@
 <?php
-    $name = $_POST['name'];
-    $visitor_email = $_POST['email'];
-    $phone_number = $_POST['phone'];
-    $message = $_POST['message'];
 
-    //$email_form = ''
-    $email_subject - "New Form Submission";
-    $email_body = "User Name: $name. \n", "User Email: $visitor_email.\n", "User Message: $message.\n";
+//mail(to,subject,message,headers,parameters);
+//variables to get from user
 
-    $to = "peza361@gmail.com";
-    $headers = "From: $email_form \r\n";
-    $headers .= "Reply-To: $visitor_email \r\n";
-    mail($to,$email_subject,$email_body,$headers);
-    header("Location: contact_me.html"); 
+  //email to me
+  $to = "peza361@gmail.com"
+  //subject of email
+  $subject = $_POST['subject'];
+  //message to be sent
+  $message = $_POST['message'];
+  $message = wordwrap($message, 70);
+  //headers & name and visitor email
+  $name = $_POST['name'];
+  $visitor_email = $_POST['email'];
+  $headers = "From: $name" .  "\r\n" .
+  $headers .= "Reply-To: $visitor_email \r\n";
+
+  //$email_form = ''
+  //$email_body = "User Name: $name. \n", "User Email: $visitor_email.\n", "User Message: $message.\n";
+
+  //send message
+  mail($to, $subject, $message, $headers);
+  header("Location: contact_me.html");
+
  ?>

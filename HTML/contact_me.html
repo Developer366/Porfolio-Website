@@ -51,42 +51,41 @@
 </nav>
 <!--end of nav bar-->
 
-
 	<div class="container.fluid" style="margin-top:40px;">
 			<h1 id="Interests">Want to contact me? Send me an Email.</h1>
 
 	</div>
 	<div class="container">
 
-
-  <form method="post" action="ContactFormHandler.php">
+<!-- enter your name-->
+<form method="post" action="ContactFormHandler.php">
     <div class="form-group">
       <label for="name">Name:</label>
-      <input type="name" class="form-control" id="name" placeholder="Enter your name" required>
+      <input type="name" class="form-control" name="name" placeholder="Enter your full name" required>
     </div>
-
+<!-- enter your Email-->
     <div class="form-group">
-      <label for="pwd">Your Email:</label>
-      <input type="Email" class="form-control" id="pwd" placeholder="Enter your Email">
+      <label for="email">Your Email:</label>
+      <input type="Email" class="form-control" name="email" placeholder="Enter your Email">
     </div>
-
+<!-- enter your Subject-->
     <div class="form-group">
-      <label for="pwd">Your Phone Number (optional):</label>
-      <input type="number" class="form-control" id="pwd" placeholder="Enter Phone Number (Optional)">
+      <label for="subject">Subject:</label>
+      <input type="text" class="form-control" name="subject" placeholder="Subject of your Message">
     </div>
-
+<!-- enter your Message-->
     <div class="form-group">
       <label for="pwd">Your message to me:</label>
-      <textarea class="form-control" placeholder="Message" row="4" required></textarea>
+      <textarea class="form-control" placeholder="Message" name="message" cols="50" row="5" required></textarea>
     </div>
+    <br>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" name="SendMail"class="btn btn-primary">Submit</button>
   </form>
 </div>
 
 
-
-<footer class="container-fluid bg-4 text-center" font-size:20px; line-height: 150%;">
+<footer class="container-fluid bg-4 text-center" font-size:20px; line-height: 150%;>
 
   <p>Made by Kamil Peza</p>
   <p>Contact information: <a href="www.gmail.com">www.gmail.com</a></p>
