@@ -1,6 +1,8 @@
 <!-- Kamil's Personal Webiste Portfolio 1.0 -->
 <!DOCTYPE html>
 
+
+
 <html lang="en">
 <head>
   <title>Kamil Peza's Personal Website </title>
@@ -35,15 +37,15 @@
     <ul class="navbar-nav">
 
       <li class="nav-item" style="color:red;">
-        <a class="nav-link" href="#Profile">About Me</a>
+        <a class="nav-link" href="index.html">About Me</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#Education">Portfolio</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#Experience">Contact Me</a>
+        <a class="nav-link" href="contact_me.php">Contact Me</a>
       </li>
 
     </ul>
@@ -59,7 +61,7 @@
 	<div class="container">
 
 <!-- enter your name-->
-<form method="post" action="ContactFormHandler.php">
+<form  action="contact_me.php" method="post">
     <div class="form-group">
       <label for="name">Name:</label>
       <input type="name" class="form-control" name="name" placeholder="Enter your full name" required>
@@ -85,6 +87,26 @@
   </form>
 </div>
 
+<?php
+      $to = "kamil.peza16@my.stjohns.edu";
+      $subject = $_POST['subject'];
+      $message = $_POST['message'];
+      //$message = wordwrap($message, 70);
+      $name = $_POST['name'];
+      $visitor_email = $_POST['email'];
+      $headers = "From: $name" .  "\r\n";
+      //$headers .= "Reply-To: $visitor_email \r\n";
+      //$email_form = ''
+      //$email_body = "User Name: $name. \n", "User Email: $visitor_email.\n", "User Message: $message.\n";
+      //send message
+      //mail(to,subject,message,headers,parameters);
+      mail ($to, $subject, $message, $headers);
+      //header("Location: contact_me.php");
+      echo "OK.";
+      echo "You are $name and your subject was $subject.";
+      echo "Your message was $message .";
+  //print_r($_GET)
+?>
 
 <footer class="container-fluid bg-4 text-center" font-size:20px; line-height: 150%;>
 
