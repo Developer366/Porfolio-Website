@@ -1,11 +1,8 @@
 .jumbotron {
-		/*	border-radius: 0 !important;*/
 	background-image: url("../IMAGES/NightCity.jpg");
-	background-attachment:fixed;
 	background-repeat: no-repeat;
 	background-size:100% 100%;
-	height: 200px;
-	/*300px height*/
+	height:300px;
 }
 body {
 	background-image: url("../IMAGES/milyway.jpeg");
@@ -21,8 +18,9 @@ h1 {
 	text-align: center;
 	color: yellow;
 	text-decoration: underline;
-	font-size: 260%;
+	font-size: 300%;
 	font-weight: bold;
+	padding-bottom:20px;
 }
 h2 {
 	text-align: center;
@@ -46,26 +44,21 @@ p {
 	font-family: OCR A Std, monospace;
 	text-align: center;
 	font-size: 230%;
-	color:#FF6DE7;
+	color:violet;
 }
 .bold {
 	font-weight:900;
 	color: yellow;
 }
-ul{
+ul {
 	font-family: OCR A Std, monospace;
 	font-size: 200%;
 }
-.nav-item a{
-	/*	text-align:center !important; */
+.nav-item a {
 		color: red !important;
-		font-size: 120%;
-		padding-left: 30px !important;
-		padding-right: 30px !important;
-		/*
-		margin-left: 150px;
-		margin-right: 150px;
-		*/
+		font-size: 100%;
+		padding-left: 35px !important;
+		padding-right: 35px !important;
 	}
 #Interests {
 		display: table;
@@ -77,12 +70,8 @@ th {
 	text-align:center;
 }
 tr {
-	color: pink;
+	color: lawngreen;
 	font-size:100%;
-}
-footer {
-	padding: 3px;
-	color: red;
 }
 .link {
 	color: red;
@@ -102,8 +91,6 @@ table {
 	margin-right: auto;
 	font-size:150%;
 }
-iframe {
-	margin-left: 100px !important;
-  margin-right: auto !important;
-	align-content: center !important;
+footer {
+	margin-top:40px;
 }

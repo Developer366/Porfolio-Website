@@ -1,4 +1,4 @@
-<!-- Kamil's Personal Webiste Portfolio 1.0 -->
+<!-- Kamil's Personal Webiste Portfolio My Portfolio Section-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,125 +18,106 @@
 
 
 <body>
+  <div class="jumbotron text-center" style="margin-bottom:0"></div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1 style="color:#00ff00;">Kamil Peza's Website</h1>
-</div>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="/index.html" style="color:Violet; font-family: 'Brush Script MT', cursive; font-size:200%;">Kamil Peza's Portfolio Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<!--Nav Bar with page links-->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#" style="color:aqua;"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">About Me </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="HTML/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="HTML/contact_me.php">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
+<div class="container-fluid" style="margin-top:30px; margin-bottom: 90px;">
+  <div class="row">
+  	<div class="col-md-5 mx-auto">
+  		<h1 id="Programming">My Programming Skills Section</h1><br>
+  		<ul style="font-family: Verdana; margin-left:60px; ">
+  			<li>HTML/CSS (Intermediate Level)</li>
+          <ul style="margin-left:25px">
+            <li>Bootstrap CSS Framework</li>
+          </ul>
+        <li>JavaScript (Intermediate level)</li>
+          <ul style="margin-left:25px">
+            <li>Node.js</li>
+            <li>Handlebars templating language</li>
+          </ul>
+        <li>Python (Intermediate Level)</li>
+          <ul style="margin-left:25px">
+            <li>Flask Micro Framework</li>
+            <li>SQLite 3 with Flask</li>
+            <li>Jinja templating language </li>
+          </ul>
+        <li>Java (Intermediate Level)</li>
+        <li>JSON (Intermediate Level)</li>
+        <li>PHP (Beginner Level)</li>
+        <li>C Programming (Beginner Level)</li>
+  			<li>R: (Beginner Level)</li>
+  		</ul>
 
-      <li class="nav-item">
-        <a class="nav-link" href="../index.html">About Me</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="HTML/portfolio.html">Portfolio</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="contact_me.php">Contact Me</a>
-      </li>
-
-    </ul>
-
+  	</div>
   </div>
-</nav>
-<!--end of nav bar-->
+</div><br>
 
-<div class="container.fluid" style="margin-top:30px; margin-bottom: 90px;">
-
-<div class="row">
-	<div class="col-md-10 mx-auto" style="margin-bottom: 60px;">
-		<h1 id="Programming">Programming Skills Section</h1>
-		<ul>
-			<li>Html/CSS: intermediate level</li>
-			<li>Java: intermediate level</li>
-			<li>R: beginner level (used in statistics classes and data mining)</li>
-			<li>Python [Flask]: intermediate level</li>
-      <li>Python (intermediate level)</li>
-      <li>Flask micro web framework</li>
-      <li>JavaScript (Intermediate level)</li>
-      <li>node.js</li>
-      <li>Handlebars</li>
-      <li>C Programming (Beginner Level)</li>
-      <li>Sqlite</li>
-		</ul>
-	</div>
-</div>
 <!-- Projects Examples-->
+<h1 style="text-align: left; font-size:600%; color: lawngreen; margin-left:30px;">My Projects:</h1>
 
 <!-- Project 1: quiz world -->
-<h1>Quiz World</h1><br>
-<div class="row">
-  <div class="col-md-6 embed-responsive embed-responsive-16by9">
+<div class = "container-fluid">
+  <h1>Quiz World</h1><br>
+  <div class="row">
+    <div class="col-lg-6 embed-responsive embed-responsive-16by9">
+      <iframe src="https://boring-kalam-9b5557.netlify.app/" height="400" width="100">Quiz World Link</iframe>
+    </div>
 
-    <iframe src="https://boring-kalam-9b5557.netlify.app/" height="600" width="900" margin:"700">Quiz World Link</iframe>
+    <div class="col-lg-6">
+    <p>This is a webapp that gives the user 2 quizes that they can choose from. The two options are Java Quiz and HTML/CSS Quiz. The user gets around 20 questions per quiz and a timer starts when a quiz is selected. Getting a question wrong shows the right answer and an explanation. At the end of the quiz, your score is shown and how long you were taking the quiz. </p>
+    <a  href="https://github.com/Developer366/CUS1172_Spring2020_Kamil_Peza.git" target="_blank" class="link">--> Github Link <-- </a><br>
+    <a href="https://boring-kalam-9b5557.netlify.app/" target="_blank" class="link">--> Website Link <-- </a>
+    </div>
+  </div>
+  <h2 style="text-align:center">HTML | CSS | JavaScript | Node.js | Handlebars | JSON</h2>
+
+
+  <!-- Project 2:
+  <div class="row" style="margin-top:150px;">
+
+    <div class="col-md-6">
+    <p>NEXT PROJECT</p>
+    </div>
+
+    <div class="col-md-6">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <a href="">In Progress</a>
+    </div>
   </div>
 
-  <div class="col-md-6">
-  <p>This is a webapp that gives the user 2 quizes that they can choose from. The two options are Java Quiz and HTML/CSS Quiz. The user gets around 20 questions per quiz and a timer starts when a quiz is selected. Getting a question wrong shows the right answer and an explanation. At the end of the quiz, your score is shown and how long you were taking the quiz. </p>
-  <a  href="https://github.com/Developer366/CUS1172_Spring2020_Kamil_Peza.git" class="link">--> Github Link <-- </a><br>
-  <a href="https://boring-kalam-9b5557.netlify.app/" class="link">--> Website Link <-- </a>
+  <div class="row">
+  	<div class="container.fluid" style="margin-top:60px">
+
+  	</div>
   </div>
 </div>
-<h2 style="text-align:center">HTML | CSS | JavaScript | Node.js | Handlebars | JSON</h2>
-
-
-<!-- Project 2: -->
-<div class="row" style="margin-top:70px;">
-
-  <div class="col-md-6">
-  <p>NEXT PROJECT</p>
-  </div>
-
-  <div class="col-md-6">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <a href="">In Progress</a>
-  </div>
-</div>
-
-<div class="row">
-	<div class="container.fluid" style="margin-top:60px">
-<!--
-	<h2 style="text-align: center;">Link to Github Repositories - <a href="https://github.com/Developer366/CUS1172_WebPageGraphics-Assignments" style="color:lawngreen;">[Labs and Assignments for CUS1172 Web Page Graphics]</a> </h2>
-		<br><br>
 -->
-	</div>
-</div>
+<!--End of Projects Section-->
 
-  <footer class="container-fluid bg-4 text-center" style="font-size:20px; line-height: 150%;">
-
-    <p>Kamil Peza</p>
-    <p>Contact information: <a href="www.gmail.com">www.gmail.com</a></p>
-    <p> &copy;Feb 2020</p>
-
+  <footer class="container-fluid bg-4 text-center">
+    <p>Kamil Peza  &copy;Feb 2021</p>
+    <p><a class="nav-link" href="HTML/contact_me.php">--> Click here to Contact Me <--</a></p>
   </footer>
 
 </body>
 </html>
-
-<!--
- <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
--->

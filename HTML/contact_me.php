@@ -1,8 +1,6 @@
 <!-- Kamil's Personal Webiste Portfolio 1.0 -->
 <!DOCTYPE html>
 
-
-
 <html lang="en">
 <head>
   <title>Kamil Peza's Personal Website </title>
@@ -27,35 +25,34 @@
 </div>
 
 <!--Nav Bar with page links-->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#" style="color:aqua;"></a>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="/index.html" style="color:Violet; font-family: 'Brush Script MT', cursive; font-size:200%;">Kamil Peza's Portfolio Website</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-
-      <li class="nav-item" style="color:red;">
-        <a class="nav-link" href="index.html">About Me</a>
-      </li>
-
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="/">About Me </a>
       </li>
-
       <li class="nav-item">
-        <a class="nav-link" href="contact_me.php">Contact Me</a>
+        <a class="nav-link" href="HTML/portfolio.html">Portfolio</a>
       </li>
-
+      <li class="nav-item">
+        <a class="nav-link" href="HTML/contact_me.php">Contact Me</a>
+      </li>
     </ul>
-
   </div>
 </nav>
 <!--end of nav bar-->
 
-	<div class="container.fluid" style="margin-top:40px;">
+	<div class="container-fluid" style="margin-top:40px;">
 			<h1 id="Interests">Want to contact me? Send me an Email.</h1>
+
+      <p><a href="https://www.linkedin.com/in/kamil-peza/" target="_blank" style="color:lightblue;">My Linkedin Profile: (https://www.linkedin.com/in/kamil-peza/)</a></p>
+
+      <p><a href="https://github.com/Developer366" target="_blank" style="color:lightblue;">My Github Account: (https://github.com/Developer366)</a></p>
 
 	</div>
 	<div class="container">
@@ -79,12 +76,13 @@
 <!-- enter your Message-->
     <div class="form-group">
       <label for="pwd">Your message to me:</label>
-      <textarea class="form-control" placeholder="Message" name="message" cols="50" row="5" required></textarea>
+      <textarea class="form-control" placeholder="Your Message and Phone number (optional)" name="message" cols="50" row="5" required></textarea>
     </div>
     <br>
 
     <button type="submit" name="submit" class="btn btn-primary">Send Email</button>
   </form>
+
 </div>
 
 <?php
@@ -102,44 +100,16 @@
       //mail(to,subject,message,headers,parameters);
       mail ($to, $subject, $message, $headers);
       //header("Location: contact_me.php");
-      echo "OK.";
-      echo "You are $name and your subject was $subject.";
-      echo "Your message was $message .";
+      echo "<p>Your message was sent!</p>";
+      //echo "OK.";
+      //echo "You are $name and your subject was $subject.";
+      //echo "Your message was $message .";
   //print_r($_GET)
 ?>
 
 <footer class="container-fluid bg-4 text-center" font-size:20px; line-height: 150%;>
-
-  <p>Made by Kamil Peza</p>
-  <p>Contact information: <a href="www.gmail.com">www.gmail.com</a></p>
-  <p> &copy;Feb 2020</p>
-
+  <p>Kamil Peza &copy;Feb 2020</p>
 </footer>
 
 </body>
-
 </html>
-
-
-
-<!--
-
- <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-
-
-
--->
