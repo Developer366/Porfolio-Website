@@ -1,0 +1,53 @@
+
+
+<!-- Favorite Song, Movie, Tv Show, and Anime -->
+<div class="container-fluid" style="margin-top:40px; margin-bottom:40px;">
+	<h1 id="Favorites" style="margin-bottom: 30px;">Favorite Song, Movie, TV Show, and Anime</h1>
+	<table class=" table table-bordered " >
+		<!-- Favorite Song-->
+		<tr>
+			<th>Song Name</th>
+			<th>Artist</th>
+			<th>Link / Trailer</th>
+		</tr>
+		<tr>
+			<td>Save Your Tears</td>
+			<td>The Weeknd</td>
+			<td><a href="https://www.youtube.com/watch?v=XXYlFuWEuKI&ab_channel=TheWeekndVEVO" target="_blank">The Weeknd - Save Your Tears (Official Music Video)</a></td>
+		</tr>
+		<!-- Favorite Movie-->
+		<tr>
+			<th>Movie</th>
+			<th>Director</th>
+			<th>Link/ Trailer</th>
+		</tr>
+		<tr>
+			<td>Inception</td>
+			<td>Christopher Nolan </td>
+			<td><a href="https://www.youtube.com/watch?v=8hP9D6kZseM" target="_blank">Inception - Official Trailer [HD]</a></td>
+		</tr>
+		<!--Favorite TV Show-->
+		<tr>
+			<th>TV Show</th>
+			<th>Creator</th>
+			<th>Link/ Trailer</th>
+		</tr>
+		<tr>
+			<td>Breaking Bad</td>
+			<td>Vince Gilligan </td>
+			<td><a href="https://www.youtube.com/watch?v=HhesaQXLuRY" target="_blank">Breaking Bad Trailer (First Season)</a></td>
+		</tr>
+    <!-- Favorite Anime -->
+    <tr>
+      <th>Anime</th>
+      <th>Creator</th>
+      <th>Link/ Trailer</th>
+    </tr>
+    <tr>
+       <td>Attack on Titan</td>
+       <td>Hajime Isayama</td>
+       <td><a href="https://www.youtube.com/watch?v=MGRm4IzK1SQ&feature=emb_logo&ab_channel=NIHONOMARU" target="_blank">Attack On Titan: Season One Trailer</a></td>
+    </tr>
+	</table>
+</div>
+-->
