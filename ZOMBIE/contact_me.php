@@ -1,4 +1,4 @@
-<!-- Kamil's Personal Webiste Portfolio 1.0 -->
+<!-- Kamil's Personal Webiste Contact Me page -->
 <!DOCTYPE html>
 
 <html lang="en">
@@ -20,9 +20,7 @@
 
 <body>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1 style="color:#00ff00;">Kamil Peza's Website</h1>
-</div>
+<div class="jumbotron text-center" style="margin-bottom:0"></div>
 
 <!--Nav Bar with page links-->
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -37,10 +35,10 @@
         <a class="nav-link" href="/">About Me </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="HTML/portfolio.html">Portfolio</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="HTML/contact_me.php">Contact Me</a>
+        <a class="nav-link" href="contact_me.php">Contact Me</a>
       </li>
     </ul>
   </div>
@@ -50,9 +48,9 @@
 	<div class="container-fluid" style="margin-top:40px;">
 			<h1 id="Interests">Want to contact me? Send me an Email.</h1>
 
-      <p><a href="https://www.linkedin.com/in/kamil-peza/" target="_blank" style="color:lightblue;">My Linkedin Profile: (https://www.linkedin.com/in/kamil-peza/)</a></p>
+      <p><a href="https://www.linkedin.com/in/kamil-peza/" target="_blank" style="color:lightblue; word-break:break-all;">My Linkedin Profile: (https://www.linkedin.com/in/kamil-peza/)</a></p>
 
-      <p><a href="https://github.com/Developer366" target="_blank" style="color:lightblue;">My Github Account: (https://github.com/Developer366)</a></p>
+      <p><a href="https://github.com/Developer366" target="_blank" style="color:lightblue; word-break:break-all;">My Github Account: (https://github.com/Developer366)</a></p>
 
 	</div>
 	<div class="container">
@@ -92,13 +90,13 @@ if (isset($_POST['submit'])) {
       $message = $_POST['message'];
       $name = $_POST['name'];
       $visitor_email = $_POST['email'];
-
+      
       $headers = "From: $name".  "\r\n";
       $headers .= "Reply-To: $visitor_email \r\n";
-
+     
       //mail(to,subject,message,headers,parameters);
       mail($to, $subject, $message, $headers);
-
+      
       //header("Location: contact_me.php");
       echo "<p>Your message was sent!</p>";
       //print_r($_GET)
