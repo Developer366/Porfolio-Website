@@ -36,10 +36,10 @@
         <a class="nav-link" href="/">About Me </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="HTML/portfolio.html">Portfolio</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="HTML/contact_me.php">Contact Me</a>
+        <a class="nav-link" href="#">Contact Me</a>
       </li>
     </ul>
   </div>
