@@ -21,12 +21,11 @@
 <body>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-  <h1 style="color:#00ff00;">Kamil Peza's Website</h1>
 </div>
 
 <!--Nav Bar with page links-->
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="/index.html" style="color:Violet; font-family: 'Brush Script MT', cursive; font-size:200%;">Kamil Peza's Portfolio Website</a>
+  <a class="navbar-brand" href="/index.html" style="color:Violet; font-family: 'Brush Script MT', cursive; font-size:180%;">Kamil Peza's Portfolio Website</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -50,9 +49,9 @@
 	<div class="container-fluid" style="margin-top:40px;">
 			<h1 id="Interests">Want to contact me? Send me an Email.</h1>
 
-      <p><a href="https://www.linkedin.com/in/kamil-peza/" target="_blank" style="color:lightblue;">My Linkedin Profile: (https://www.linkedin.com/in/kamil-peza/)</a></p>
+      <a href="https://www.linkedin.com/in/kamil-peza/" target="_blank" style="color:lightblue; font-size:4vw;">My Linkedin Profile: (https://www.linkedin.com/in/kamil-peza/)</a><br><br><br>
 
-      <p><a href="https://github.com/Developer366" target="_blank" style="color:lightblue;">My Github Account: (https://github.com/Developer366)</a></p>
+      <a href="https://github.com/Developer366" target="_blank" style="color:lightblue; font-size:4vw;">My Github Account: (https://github.com/Developer366)</a><br><br><br>
 
 	</div>
 	<div class="container">

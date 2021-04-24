@@ -71,11 +71,13 @@ ul {
 		padding-left: 35px !important;
 		padding-right: 35px !important;
 	}
+/*
 #Interests {
 		display: table;
 		margin: 0 auto;
 		list-style-type: square;
 }
+*/
 th {
 	color:red;
 	text-align:center;
@@ -108,7 +110,6 @@ footer {
 img {
 	max-width:100%;
 	height: auto;
-
 }
 
 /*The top media query is prioritized*/
@@ -131,4 +132,4 @@ img {
 		width: 300px;
 		height: 300px;
 	}
-	}
+}/*End of Media Querry*/
