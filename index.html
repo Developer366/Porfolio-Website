@@ -3,138 +3,139 @@
 <html lang="en">
 
 <head>
-    <title>Kamil Peza's Portfolio Website </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS Links -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <!-- JavaScript links-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="Javascript/script.js"></script>
+      <title>Kamil Peza's Portfolio Website </title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- CSS Links -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../CSS/index.css">
+      <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+      <!-- JavaScript links-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <script src="Javascript/script.js"></script>
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid text-center" style="margin-bottom:0"></div>
+      <!--<div class="jumbotron jumbotron-fluid text-center" style="margin-bottom:0"></div>-->
+      <!-- Collapsable navbar -->
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark"> <!----fixed-top -->
+            <a class="navbar-brand" href="index.html">Kamil Peza's Portfolio Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
 
-<!-- Collapsable navbar -->
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="index.html" style="color:Violet; font-family: 'Brush Script MT', cursive; font-size:200%;">Kamil Peza's Portfolio Website</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav ml-auto" id="navlist">
+                        <li class="nav-item">
+                              <a class="nav-link" href="index.html">About Me </a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="/HTML/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="/HTML/contact_me.php">Contact Me</a>
+                        </li>
+                  </ul>
+            </div>
+      </nav>
 
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">About Me </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/HTML/portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/HTML/contact_me.php">Contact Me</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+      <!--About me - Profile Photo and Info-->
+      <div class="container-fluid" id="topspace">
+      <div class="row">
+            <div class="col-md-6" id="Image">
+                  <img src="IMAGES/headshot_greyBackground.jpeg" class="avatar"></img>
+            </div>
+            <div class="col-md-6">
+                  <h1 class="botspace">About Me</h1>
+                  <p>My name is Kamil Peza. I am a college graduate from Saint John's University. I received an Bachelor's of Science in computer science. I am currently working as a relief doorman in Queens. I am looking for an internship or entry level position as a software developer. </p>
+            </div>
+      </div>
+      </div>
 
-<br><br>
+      <!-- Education Summary and Work Experience and General Interest/Hobbies -->
+      <div class="container-fluid">
+      <div class="row">
+            <div class="col-md-6">
+                  <h1 class="botspace">Education Summary</h1>
+                  <ul class="list botspace">
+                        <li> I graduated from Saint John's University with a Bachelors of Science degree in Computer
+                              Science on <span>May 2020</span></li>
+                        <li>Dean's list 2016-2020</li>
+                        <li><span>GPA: 3.68, Cum Laude</span></li>
+                  </ul>
 
-<!--About me Photo and Info-->
-<div style=margin-bottom:60px;>
-<h1>About Me</h1>
-<img src="IMAGES/headshot_greyBackground.jpeg" class="avatar"></img>
-		<p><span class="bold">Full Name:</span> Kamil Peza</p>
-		<p><span class="bold">University:</span> Saint John's University</p>
-		<p><span class="bold">Major:</span> Computer Science BS</p>
-		<p><span class="bold">Residence: </span>Queens, New York</p>
-</div>
+                  <h1 class="botspace">Work Experience</h1>
+                  <ul class="list botspace">
+                        <li>Relief Doorman in Forest Hills, NY (June,2017-Present)</li>
+                        <li>SYEP Camp Counselor (May 2013 - August 2015)</li>
+                  </ul>
+            </div>
 
-<!-- Education Summary and Work Experience -->
-<div class="row" style="margin-bottom: 60px;">
-	<div class="col-md-6">
-      <ul>
-        <h1>Education Summary</h1>
-          <li> I graduated from Saint John's University with a Bachelors of Science degree in Computer Science on <span style="color:red;font-weight:bold">May 2020 </span></li>
-          <li>Dean's list 2016-2020</li>
-          <li><span style="color:red;font-weight:bold">GPA: 3.68, Cum Laude</span></li>
-      </ul>
-    </div>
+            <div class="col-md-6">
+                  <h1 class="botspace">General Interests & Hobbies</h1>
+                  <ul class = "list">
+                        <li>PC Gaming</li>
+                        <li>TV Shows & Movies</li>
+                        <li>Basketball/NBA</li>
+                        <li>Soccer</li>
+                        <li>Learning to Cook</li>
+                        <li>Playing Guitar</li>
+                        <li>Listening to Music</li>
+                        <li>Going to the Gym</li>
+                        <li>Stock Trading</li>
+                        <li>Cryptocurreny</li>
+                        <li>Anime Shows</li>
+                        <li>PC Building</li>
+                        <li>Watching UFC</li>
+                  </ul>
+            </div>
+      </div>
+      </div>
 
-	<div class="container col-sm-6">
-    <h1 id="Experience">Work Experience</h1>
-      <ul>
-	    	<li>Relief Doorman in Forest Hills, NY (June,2017-Present)</li>
-        <li>SYEP Camp Counselor (May 2013 - August 2015)</li>
-	    </ul>
-    </div>
-</div>
+      <!-- Favorite Song, Movie, TV Show, and Anime -->
+      <div class="container-fluid center-align">
+      <h1 class="botspace">Favorite Song, Movie, TV Show, and Anime</h1>
+      <div class="row">
+            <div class="col-lg-6">
+                  <h1><a href="https://www.youtube.com/watch?v=XXYlFuWEuKI&ab_channel=TheWeekndVEVO" target="_blank">Save Your Tears</a></h4>
+                  <h2>Artist: The Weeknd</h2>
 
-<!--General Interests and Hobbies-->
-<div class="container col-md-6">
-  <h1>General Interests & Hobbies</h1>
-    <ul id="Interests">
-      <li>PC Gaming</li>
-      <li>TV Shows & Movies</li>
-      <li>Basketball</li>
-      <li>Learning to Cook</li>
-      <li>Playing Guitar</li>
-      <li>Listening to Music</li>
-      <li>Going to the Gym</li>
-      <li>Stock Trading</li>
-      <li>Cryptocurreny</li>
-      <li>Anime Shows</li>
-      <li>PC Building</li>
-    </ul>
-</div>
+                  <iframe width="600" height="400" src="https://www.youtube.com/embed/pViYsTHB0i8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
+            <div class="col-lg-6">
+                  <h1><a href="https://www.youtube.com/watch?v=8hP9D6kZseM" target="_blank">Inception</a></h1>
+                  <h2>Director: Christopher Nolan</h2>
 
-<!-- Favorite Song, Movie, TV Show, and Anime -->
-<div class = "container-fluid" style="text-align:center;">
-  <h1 style="margin-bottom: 30px; margin-top:40px;">Favorite Song, Movie, TV Show, and Anime</h1>
+                  <iframe width="600" height="400" src="https://www.youtube.com/embed/8hP9D6kZseM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope picture-in-picture" allowfullscreen></iframe>
+            </div>
+      </div>
 
-  <div class="row">
-  	<div class="col-lg-6" >
-      <h2>Save Your Tears</h2>
-      <h3>Artist: The Weeknd</h3>
-      <h4><a href="https://www.youtube.com/watch?v=XXYlFuWEuKI&ab_channel=TheWeekndVEVO" target="_blank">The Weeknd - Save Your Tears (Official Music Video)</a></h4>
-      <iframe width="500" height="400" src="https://www.youtube.com/embed/pViYsTHB0i8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+      <div class="row">
+            <div class="col-lg-6 list">
+                  <h1><a href="https://www.youtube.com/watch?v=HhesaQXLuRY" target="_blank">Breaking Bad</a></h1>
+                  <h2> Creator: Vince Gilligan</h2>
+                  
+                  <iframe width="600" height="400" src="https://www.youtube.com/embed/HhesaQXLuRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope picture-in-picture" allowfullscreen></iframe>
+            </div>
 
-    <div class="col-lg-6">
-      <h2>Inception</h2>
-      <h3>Director: Christopher Nolan</h3>
-      <h4><a href="https://www.youtube.com/watch?v=8hP9D6kZseM" target="_blank">Inception - Official Trailer [HD]</a></h4>
-      <iframe width="500" height="400" src="https://www.youtube.com/embed/8hP9D6kZseM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
+            <div class="col-lg-6">
+                  <h1><a href="https://www.youtube.com/watch?v=MGRm4IzK1SQ&feature=emb_logo&ab_channel=NIHONOMARU" target="_blank">Attack On Titan</a></h1>
+                  <h2> Creator: Hajime Isayama</h2>
+                  
+                  <iframe width="600" height="400" src="https://www.youtube.com/embed/MGRm4IzK1SQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+      </div>
+      </div>
 
-  <div class="row">
-    <div class="col-lg-6">
-      <h2>Breaking Bad</h2>
-      <h3> Creator: Vince Gilligan</h3>
-      <h4><a href="https://www.youtube.com/watch?v=HhesaQXLuRY" target="_blank">Breaking Bad Trailer (First Season)</a></h4>
-        <iframe width="500" height="400" src="https://www.youtube.com/embed/HhesaQXLuRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+      <footer >
+            <p>Kamil Peza &copy;July 2021</p>
+            <p><a class="nav-link" href="HTML/portfolio.html">--> Click here for Portfolio Section <-- </p>
+      </footer>
 
-    <div class="col-lg-6">
-      <h2>Attack on Titan</h2>
-      <h3> Creator: Hajime Isayama</h3>
-      <h4><a href="https://www.youtube.com/watch?v=MGRm4IzK1SQ&feature=emb_logo&ab_channel=NIHONOMARU" target="_blank">Attack On Titan: Season One Trailer</a></h4>
-      <iframe width="500" height="400" src="https://www.youtube.com/embed/MGRm4IzK1SQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
-
-
-  <footer class="container-fluid bg-4 text-center">
-    <p>Kamil Peza  &copy;Feb 2021</p>
-    <p><a class="nav-link" href="HTML/portfolio.html">--> Click here for Portfolio Section <--</a></p>
-  </footer>
 
 </body>
+
 </html>
