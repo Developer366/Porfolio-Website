@@ -1,141 +1,108 @@
 <!-- Kamil's Personal Webiste Portfolio My Portfolio Section-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Kamil Peza's Personal Website </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS Links -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../CSS/portfolio.css">
-
-    <!-- JavaScript links-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <title>Kamil Peza's Personal Website </title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- CSS Links -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../CSS/portfolio.css">
+      <!-- JavaScript links-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 
-
 <body>
-  <div class="jumbotron text-center" style="margin-bottom:0"></div>
+<!--<div class="jumbotron text-center" style="margin-bottom:0"></div>-->
+<!-- Collapsable navbar -->
+<nav class="navbar navbar-expand-md fixed-top navbar-dark">
+      <a class="navbar-brand" href="/index.html">Kamil Peza's Portfolio Website</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="/index.html" style="color:Violet; font-family: 'Brush Script MT', cursive; font-size:200%;">Kamil Peza's Portfolio Website</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                        <a class="nav-link" href="/">About Me </a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="contact_me.php">Contact Me</a>
+                  </li>
+            </ul>
+      </div>
+</nav>
 
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">About Me </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact_me.php">Contact Me</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<!-- Projects Examples ------------------------------------------------------------------------------->
+<h1 id ="MyProjects">My Projects: </h1>
 
-<div class="container-fluid" style="margin-top:30px;">
-  <div class="row">
-  	<div class="col-md-4 mx-auto">
-  		<h1 id="Programming">My Programming Skills Section</h1><br>
+<!-- Project 1: quiz world ----------------------------------->
+<div class="container-fluid">
+      <h1>Quiz World</h1>
+      <div class="row">
+            <div class="col-lg-6">
+                  <img src="/IMAGES/quiz_world.PNG">
+            </div>
 
-  			<h3>HTML/CSS (Intermediate Level)</h3>
-          <ul>
-            <li>Bootstrap CSS Framework</li>
-          </ul>
-        <h3>JavaScript (Intermediate level)</h3>
-          <ul>
-            <li>Node.js</li>
-            <li>Handlebars templating</li>
-          </ul>
-        <h3>Python (Intermediate Level)</h3>
-          <ul>
-            <li>Flask Micro Framework</li>
-            <li>SQLite 3 with Flask</li>
-            <li>Jinja templating</li>
-          </ul>
-        <h3>Java (Intermediate Level)</h3>
-        <h3>JSON (Intermediate Level)</h3>
-        <h3>PHP (Beginner Level)</h3>
-        <h3>C Programming (Beginner Level)</h3>
-  			<h3>R Programming (Beginner Level)</h3>
-
-
-  	</div>
-  </div>
-</div><br>
-
-<!-- Projects Examples-->
-<h1 style="text-align: left; font-size:10vw; color: lawngreen; margin-left:40px; margin-bottom: 30px;">My Projects:</h1>
-<div class = "container-fluid" style="margin-bottom:150px;">
-
-<!-- Project 1: quiz world ----------------------------------------->
-  <h1>Quiz World</h1>
-  <div class="row">
-
-    <div class="col-lg-6">
-      <img src="/IMAGES/quiz_world.PNG" style="height=100%" width="100%"></img>
-    </div>
-
-    <div class="col-lg-6">
-      <p style="font-size:200%;">This is a webapp that gives the user 2 quizes that they can choose from. The two options are Java Quiz and HTML/CSS Quiz. The user gets around 20 questions per quiz and a timer starts when a quiz is selected. Getting a question wrong shows the right answer and an explanation. At the end of the quiz, your score is shown and how long you were taking the quiz. </p>
-      <a  href="https://github.com/Developer366/CUS1172_Spring2020_Kamil_Peza.git" target="_blank" class="link">--> Github Link <-- </a><br>
-      <a href="https://boring-kalam-9b5557.netlify.app/" target="_blank" class="link">--> Website Link <-- </a>
-    </div>
-
-  </div>
-  <h2 style="text-align:center; margin-bottom:300px;">HTML | CSS | JavaScript | Node.js | Handlebars | JSON</h2>
+            <div class="col-lg-6">
+                  <p>This is a webapp that gives the user 2 quizes that they can choose from. The two
+                        options are Java Quiz and HTML/CSS Quiz. The user gets around 20 questions per quiz and a timer starts when a quiz is selected. Getting a question wrong shows the right answer and an explanation. At the end of the quiz, your score is shown and how long you were taking the quiz. </p>
+                  <a href="https://github.com/Developer366/CUS1172_Spring2020_Kamil_Peza.git" target="_blank" class="link">--&gt; Github Link &lt;-- </a><br>
+                  <a href="https://boring-kalam-9b5557.netlify.app/" target="_blank" 
+                  class="link">--&gt; Website Link &lt;--</a>
+            </div>
+      </div>
+      <h2>HTML | CSS | JavaScript | Node.js | Handlebars | JSON</h2>
+ </div><!--End of Quiz World-->
+            
+<!-- Project 2: Restaurant Ordering System------------------------------->
+<div class="container-fluid">
+      <h1>Restaurant Ordering System</h1>
+      <div class="row">
+            <div class="col-md-6">
+                  <img src="/IMAGES/javacodeCapture.PNG">
+            </div>
+            <div class="col-md-6">
+                  <p>A restaurant ordering system that lets the user choose between Olive Garden and Panera bread. After choosing a restaurant, the menu is displayed along with the price. The user can pick more than one menu item and add it to their order Then the subtotal, tax and total is calculated for the bill.</p>
+                  <p><a href="https://github.com/Developer366/Restaurant-Ordering-System" target="_blank"> --&gt; Github repository link &lt;-- </a></p>
+            </div>
+      </div>
+      <h2>Java | Junit Testing </h2>
+</div><!--End of Quiz World-->
 
 
-  <!-- Project 2: Restaurant Ordering System------------------------------->
-  <h1>Restaurant Ordering System</h1>
-  <div class="row" style="margin-top:30px;">
+<!-- Project 3: Task Master with Login System ------------------------------------->
+<div class="container-fluid">
+      <h1>Task Master Web App</h1><br>
+      <div class="row">
+            <div class="col-lg-6">
+                  <img src="/IMAGES/TaskMaster.PNG">
+            </div>
+            <div class="col-md-6">
+                  <p>Task Master is a Flask application that has the user Login/ register an account and be able to create Tasks that are to be completed. The user can complete tasks. Incomplete and completed tasks are both displayed in tables. </p>
+                  <a href="https://taskmasterr.herokuapp.com/" target="_blank" class="link">
+                   --&gt; Task Master Flask App &lt;-- </a>
+                  <a href="https://github.com/Developer366/TodoList_with_Login" target="_blank" class="link">--&gt; Task Master Github Repository &lt;-- </a>
+            </div>
+      </div>
+      <h2>HTML | CSS | Python | Flask | Sqlite3 Jinja</h2>
+</div> <!--End of Task Master Web App-->
 
-    <div class="col-md-6">
-      <img src="/IMAGES/javacodeCapture.PNG" style="height=100%" width="100%"></img>
-    </div>
+      <!--End of Projects Section-->
 
-    <div class="col-md-6">
-      <p>A restaurant ordering system that lets the user choose between Olive Garden and Panera bread. After choosing a restaurant, the menu is displayed along with the price. The user can pick more than one menu item and add it to their order. Then the subtotal, tax and total is calculated for the bill.</p>
-      <a href="https://github.com/Developer366/Restaurant-Ordering-System" target="_blank" class="link"> --> Github repository link <--</a>
-    </div>
-
-    </div>
-    <h2 style="text-align:center; margin-bottom:300px;">Java | Junit Testing </h2>
-
-
-  <!-- Project 3: Task Master with Login System ------------------------------------->
-  <h1>Task Master Web App</h1><br>
-  <div class="row">
-
-    <div class="col-lg-6">
-      <img src="/IMAGES/TaskMaster.PNG" style="height=100%" width="100%"> </img>
-    </div>
-
-    <div class="col-md-6">
-      <p>Task Master is a Flask application that has the user Login/ register an account and be able to create Tasks that are to be completed. The user can complete tasks. Incomplete and completed tasks are both displayed in tables. </p>
-      <a href="https://taskmasterr.herokuapp.com/" target="_blank" class="link">--> Task Master Flask App <-- </a>
-      <a href="https://github.com/Developer366/TodoList_with_Login" target="_blank" class="link">--> Task Master Github Repository <-- </a>
-    </div>
-
-  </div>
-  <h2 style="text-align:center; margin-bottom:300px;">HTML | CSS | Python | Flask | Sqlite3 | Jinja</h2>
-
-</div> <!-- end of container- fluid -->
-
-<!--End of Projects Section-->
-
-  <footer class="container-fluid bg-4 text-center">
-    <p>Kamil Peza  &copy;Feb 2021</p>
-    <p><a class="nav-link" href="contact_me.php">--> Click here to Contact Me <--</a></p>
-  </footer>
+<footer>
+      <p>Kamil Peza &copy;July 2021</p>
+      <p><a class="nav-link" href="contact_me.php">--&gt; Click here to Contact Me &lt;--</a></p>
+</footer>
 
 </body>
 </html>

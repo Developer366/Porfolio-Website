@@ -28,7 +28,7 @@ nav {
 	padding-left: 40px !important;
 	padding-right: 40px !important;
 }
-.topspace {
+#topspace {
 	margin-top: 200px;
 }
 .container-fluid {
@@ -41,48 +41,36 @@ nav {
 .center-align {
 	text-align:center;
 }
-#MyProjects {
-	text-align: left; 
-	font-size:8vw; 
-	color: lawngreen; 
-	margin-left:40px; 
-	margin-bottom: 30px;
-	margin-top: 100px;
-}
-img {
-	/*width: 800px;*/
-	width: 90%;
-	height: 600px;
+.avatar{
+	width: 450px;
+	height: 650px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-.container-fluid {
-	margin-bottom:150px;
+	border-radius: 10%;
+	/*max-width:auto;
+	max-height: 40%;
+	margin: auto;
+	display:block;*/
+	/*border-radius: 10%;*/
 }
 a {
 	color: rgb(255, 0, 55);
-	font-size: 22px;
-	display:block;
-	text-align: center;
-
 }
 span {
 	color:red;
-	font-weight:bold;
+	font-weight:bold
 }
 li {
-	font-size: 40px;
+	font-size: 30px;
 	color: white;
 }
 h1 {
 	text-align: center;
-	color: rgb(221, 255, 189);
+	color: rgb(0, 17, 255);
 	text-decoration: underline;
 	font-size: 60px;
 	font-weight: bold;
-	
-	margin-bottom:100px;
 	/*padding-bottom:40px;*/
 }
 h2 {
@@ -90,21 +78,21 @@ h2 {
 	color: yellow;
 	font-size: 40px;
 	font-weight: bold;
-	margin-top:100px;
+	text-decoration: underline;
 	
 }
 p {
 	font-family: OCR A Std, monospace;
 	text-align: center;
-	font-size:30px;
+	font-size:40px;
 	color: white;
 }
 .list {
 	font-family: OCR A Std, monospace;
-	font-size: 200%;
 	list-style-position: inside;
 	display: table;
 	margin: 0 auto;
+	list-style-type: none;
 }
 .botspace {
 	margin-bottom: 50px;
@@ -161,8 +149,5 @@ footer {
 	}
 	.nav-item a {
 		font-size: 20px;
-	}
-	img {
-		height: 300px;
 	}
 }/*End of Media Querry*/
